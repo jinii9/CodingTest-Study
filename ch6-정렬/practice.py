@@ -1,14 +1,16 @@
-# 퀵정렬
-arr = [5, 7, 9, 0, 3, 1, 6, 2, 4, 8]
+n = int(input())
 
-def quick_sort(arr):
-    if len(arr) <= 1:
-        return arr
-    pivot = arr[0]
-    tail = arr[1:]
+arr = []
+for i in range(n):
+    input_data = input().split() # input_data 값 : ['홍길동', '95']
+    arr.append((input_data[0], int(input_data[1])))
 
-    left_side = [x for x in tail if x <= pivot]
-    right_side = [x for x in tail if x > pivot]
+# arr 값 : [('홍길동', 95), ('이순신', 77)]
+result = sorted(arr, key=lambda student: student[1])
 
-    return quick_sort(left_side) + [pivot] + quick_sort(right_side)
-print(quick_sort(arr))
+for student in result:
+    print(student[0], end=' ')
+
+# 2
+# 홍길동 95
+# 이순신 77
