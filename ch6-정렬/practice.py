@@ -1,16 +1,28 @@
-n = int(input())
+# 입력
+n, m = map(int, input().split())
+graph = []
 
-arr = []
 for i in range(n):
-    input_data = input().split() # input_data 값 : ['홍길동', '95']
-    arr.append((input_data[0], int(input_data[1])))
+    graph.append(list(map(int, input())))
 
-# arr 값 : [('홍길동', 95), ('이순신', 77)]
-result = sorted(arr, key=lambda student: student[1])
+def dfs(x, y):
+    if x>=n or x<0 or y>=m or y<0:
+        return False
 
-for student in result:
-    print(student[0], end=' ')
+    if graph[x][y] == 0:
+        graph[x][y] = 1 # 방문 완료
+        dfs(x-1, y)
+        dfs(x+1, y)
+        dfs(x, y-1)
+        dfs(x, y+1)
+        return True
 
-# 2
-# 홍길동 95
-# 이순신 77
+    return False
+
+result = 0
+for i in range(n):
+    for j in range(m):
+        if dfs(i, j) == True:
+            result += 1
+
+print(result)

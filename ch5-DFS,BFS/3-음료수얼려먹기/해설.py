@@ -3,9 +3,8 @@ n, m = map(int, input().split())
 # n, m = map(int, '3 3'.split())
 # 2차원 리스트의 맵 정보 입력 받기
 graph = []
-# values = ['001','010','101']
 for i in range(n):
-    graph.append(list(map(int, input())))
+    graph.append(list(map(int, input()))) # [[0, 0, 1], [0, 1, 0], [1, 0, 1]]
 
 # DFS로 특정한 노드를 방문한 뒤에 연결된 모든 노드들도 방문
 def dfs(x, y):

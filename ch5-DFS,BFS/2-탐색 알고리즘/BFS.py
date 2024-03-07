@@ -7,7 +7,7 @@ def bfs(graph, start, visitied):
     # 현재 노드를 방문 처리
     visitied[start] = True
     # 큐가 빌 때까지 반복
-    while queue: ## 큐가 비어있지 않는 동 계속 반복
+    while queue: ## 큐가 비어있지 않는 동안 계속 반복
         # 큐에서 하나의 원소를 뽑아 출력
         v = queue.popleft() ## 현재 방문하고 있는 노드
         print(v, end=' ')

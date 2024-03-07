@@ -23,7 +23,7 @@ def dfs(x, y):
         dfs(x+1, y) # 하
         dfs(x, y-1) # 좌
         dfs(x, y+1) # 우
-        return True
+        return True ## 상하좌우를 도는 이유는 1로 변경하여 방문완료를 표시하기 위해서이고, 다 끝나고 return True가 되면 result+1이 됨.
 
     return False
 
