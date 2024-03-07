@@ -1,16 +1,15 @@
-## 🍄 알고리즘 스터디 for 코딩테스트
-📗 [이것이 취업을 위한 코딩 테스트다 with 파이썬](https://github.com/ndb796/python-for-coding-test)
+## 👾 알고리즘 스터디 for 코딩테스트
+-----------
+## 이것이 취업을 위한 코딩테스트다 with 파이썬
+📗 [해설지](https://github.com/ndb796/python-for-coding-test)
 
-## 🙋🏻‍♀️ Member
-* **Jiyeon You**([@yougi8](https://github.com/yougi8))   
-* **Seojin Yoon**([@jinii9](https://github.com/jinii9))   
+## 백준
+> dfs/bfs
 
-## 🔆 PLAN
-### PART 02
-### CHAPTER 03. 그리디
-#### Q. 큰 수의 법칙 (Date : Oct.11)
-> [Jiyeon](https://github.com/yougi8/CodingTestStudy/blob/jiyeon/week1/ch3_2_ndb.py) | [Seojin]()   
+- 🥈1 [2178 미로 탐색](https://www.acmicpc.net/problem/2178)
 
-> Review(Date : Oct.12)   
->> Jiyeon   
->> Seojin
+## 프로그래머스
+> dfs/bfs
+
+- Lv.2 [게임 맵 최단거리](https://school.programmers.co.kr/learn/courses/30/lessons/1844)
+- Lv.2 [타겟 넘버](https://school.programmers.co.kr/learn/courses/30/lessons/43165)
