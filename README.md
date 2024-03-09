@@ -6,7 +6,11 @@
 ## 백준
 > dfs/bfs
 
-- 🥈1 [2178 미로 탐색](https://www.acmicpc.net/problem/2178)
+- 🥈Lv.1 [2178 미로 탐색](https://www.acmicpc.net/problem/2178)
+- 🥈Lv.1 [2667 단지번호붙이기](https://www.acmicpc.net/problem/2667)
+> 이진탐색
+
+- 🥈Lv.1 [2343 기타 레슨](https://www.acmicpc.net/problem/2343)
 
 ## 프로그래머스
 > dfs/bfs
