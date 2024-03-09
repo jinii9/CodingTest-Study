@@ -1,32 +1,36 @@
-from collections import deque
-
-n,m = map(int, input().split())
+n = int(input())
 graph = []
 for i in range(n):
     graph.append(list(map(int, input())))
 
-dx = [-1, 1, 0, 0]
-dy = [0, 0, -1, 1]
+def dfs(x, y):
+    global count
+    if x<0 or y<0 or x>=n or y>=n:
+        return False
+    if graph[x][y] == 0:
+        return False
 
-def bfs(x,y):
-    queue = deque()
-    queue.append((x, y))
+    if graph[x][y] == 1:
+        graph[x][y] = 0
+        count += 1
+        dfs(x - 1, y)
+        dfs(x + 1, y)
+        dfs(x, y - 1)
+        dfs(x, y + 1)
+        return True
 
-    while queue:
-        x, y = queue.popleft()
+    return False
 
-        for i in range(4):
-            nx = x + dx[i]
-            ny = y + dy[i]
+result = 0
+count_data = []
+for i in range(n):
+    for j in range(n):
+        count = 0
+        if dfs(i, j) == True:
+            result += 1
+            count_data.append(count)
 
-            if nx<0 or ny<0 or nx>=n or ny>=m:
-                continue
-            if graph[nx][ny] == 1:
-                continue
-            if graph[nx][ny] == 1:
-                graph[nx][ny] = graph[x][y] + 1
-                queue.append((nx, ny))
-
-    return graph[n-1][m-1]
-
-print(bfs(0, 0))
+print(result)
+count_data.sort()
+for i in count_data:
+    print(i)
