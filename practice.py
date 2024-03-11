@@ -1,27 +1,13 @@
-# 34분
-n = int(input())
-arr = list(map(int, input().split()))
-m = int(input()) # target
+x = int(input())
+d = [0] * 10000001
 
-start, end = 0, max(arr)
-result = end
+for i in range(2, x + 1):
+    d[i] = d[i - 1] + 1
+    if i % 5 == 0:
+        d[i] = min(d[i], d[i // 5] + 1)
+    if i % 3 == 0:
+        d[i] = min(d[i], d[i // 3] + 1)
+    if i % 2 == 0:
+        d[i] = min(d[i], d[i // 2] + 1)
 
-while start <= end:
-    mid = (start + end) // 2 # 상한액
-    total = 0
-    for i in arr:
-        if i < mid:
-            total += i
-        else:
-            total += mid
-
-    if total <= m:
-        result = mid
-        start = mid + 1
-    else: # total > m
-        end = mid - 1
-
-print(result)
-
-
-
+print(d[x])
