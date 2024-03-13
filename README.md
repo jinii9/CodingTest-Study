@@ -12,6 +12,9 @@
 
 - 🥈Lv.1 [2343 기타 레슨](https://www.acmicpc.net/problem/2343)
 - 🥈Lv.2 [2512 예산](https://www.acmicpc.net/problem/2512)
+> DP
+
+- 🥈Lv.3 [1463 1로 만들기](https://www.acmicpc.net/problem/2343)
 
 ## 프로그래머스
 > dfs/bfs
