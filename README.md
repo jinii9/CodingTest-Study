@@ -1,9 +1,10 @@
 ## 👾 알고리즘 스터디 for 코딩테스트
 -----------
 ## 이것이 취업을 위한 코딩테스트다 with 파이썬
-📗 [해설지](https://github.com/ndb796/python-for-coding-test)
 > 그리디
 - [모험가 길드](https://github.com/ndb796/python-for-coding-test/blob/master/11/1.py)
+- [곱하기 혹은 더하기](https://github.com/ndb796/python-for-coding-test/blob/master/11/2.py)
+- [문자열 뒤집기](https://github.com/ndb796/python-for-coding-test/blob/master/11/3.py)
 
 ## 백준
 > dfs/bfs
