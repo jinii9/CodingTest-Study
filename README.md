@@ -28,6 +28,9 @@
 - 🥈Lv.3 [1463 1로 만들기](https://www.acmicpc.net/problem/2343)
 
 ## 프로그래머스
+> 🙇‍♂️ 99클럽 스터디 문제
+- Lv.1 [정수 제곱근 판별](https://school.programmers.co.kr/learn/courses/30/lessons/12934)
+
 > dfs/bfs
 - Lv.2 [게임 맵 최단거리](https://school.programmers.co.kr/learn/courses/30/lessons/1844)
 - Lv.2 [타겟 넘버](https://school.programmers.co.kr/learn/courses/30/lessons/43165)
