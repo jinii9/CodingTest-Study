@@ -9,6 +9,12 @@
 > 구현
 - [럭키 스트레이트](https://github.com/ndb796/python-for-coding-test/blob/master/12/1.py)
 
+> dfs/bfs
+- [특정 거리의 도시 찾기](https://github.com/ndb796/python-for-coding-test/blob/master/13/1.py)
+
+> 정렬
+- [국영수](https://github.com/ndb796/python-for-coding-test/blob/master/14/1.py)
+
 ## 백준
 > dfs/bfs
 - 🥈Lv.1 [2178 미로 탐색](https://www.acmicpc.net/problem/2178)
