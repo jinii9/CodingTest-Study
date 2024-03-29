@@ -11,7 +11,7 @@ def solution(storey):
         one = storey % 10  # 1의 자리
         ten = (storey // 10) % 10  # 10의 자리 (# 다음 자릿수 확인 위해 현재 자릿수 제거)
         if one < 5:
-            answer += ㅎ
+            answer += one
             storey -= one
         elif one > 5:
             answer += (10 - one)
