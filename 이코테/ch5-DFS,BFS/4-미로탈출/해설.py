@@ -5,6 +5,7 @@ graph = []
 for i in range(n):
     graph.append(list(map(int, input())))
 
+print(graph)
 # 상 하 좌 우
 dx = [-1,1,0,0]
 dy = [0,0,-1,1]
@@ -13,7 +14,7 @@ def bfs(x, y):
     queue = deque()
     queue.append((x,y))
 
-    # 큐 빌 때까지 반복
+    # 큐 빌 때까지 반복whi
     while queue:
         x, y = queue.popleft()
         # 현재 위치에서 네 방향으로 위치 확인
