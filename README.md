@@ -17,10 +17,14 @@
 
 ## 프로그래머스
 > 🙇‍♂️ 99클럽 스터디 문제
-### 미들러
+### 비기너
 - [정수 제곱근 판별](https://school.programmers.co.kr/learn/courses/30/lessons/12934)
 - [직사각형 별찍기](https://school.programmers.co.kr/learn/courses/30/lessons/12969?language=python3)
 - [핸드폰 번호 가리기](https://school.programmers.co.kr/learn/courses/30/lessons/12948)
+### 미들러
+- [멀리 뛰기](https://school.programmers.co.kr/learn/courses/30/lessons/12914)
+- [바탕화면 정리](https://school.programmers.co.kr/learn/courses/30/lessons/161990)
+- [마법의 엘리베이터](https://school.programmers.co.kr/learn/courses/30/lessons/148653)
 
 > dfs/bfs
 - Lv.2 [게임 맵 최단거리](https://school.programmers.co.kr/learn/courses/30/lessons/1844)
