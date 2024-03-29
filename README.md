@@ -1,19 +1,7 @@
 ## 👾 알고리즘 스터디 for 코딩테스트
 -----------
 ## 이것이 취업을 위한 코딩테스트다 with 파이썬
-> 그리디
-- [모험가 길드](https://github.com/ndb796/python-for-coding-test/blob/master/11/1.py)
-- [곱하기 혹은 더하기](https://github.com/ndb796/python-for-coding-test/blob/master/11/2.py)
-- [문자열 뒤집기](https://github.com/ndb796/python-for-coding-test/blob/master/11/3.py)
-
-> 구현
-- [럭키 스트레이트](https://github.com/ndb796/python-for-coding-test/blob/master/12/1.py)
-
-> dfs/bfs
-- [특정 거리의 도시 찾기](https://github.com/ndb796/python-for-coding-test/blob/master/13/1.py)
-
-> 정렬
-- [국영수](https://github.com/ndb796/python-for-coding-test/blob/master/14/1.py)
+📗[해설지](https://github.com/ndb796/python-for-coding-test)
 
 ## 백준
 > dfs/bfs
@@ -29,7 +17,10 @@
 
 ## 프로그래머스
 > 🙇‍♂️ 99클럽 스터디 문제
-- Lv.1 [정수 제곱근 판별](https://school.programmers.co.kr/learn/courses/30/lessons/12934)
+### 미들러
+- [정수 제곱근 판별](https://school.programmers.co.kr/learn/courses/30/lessons/12934)
+- [직사각형 별찍기](https://school.programmers.co.kr/learn/courses/30/lessons/12969?language=python3)
+- [핸드폰 번호 가리기](https://school.programmers.co.kr/learn/courses/30/lessons/12948)
 
 > dfs/bfs
 - Lv.2 [게임 맵 최단거리](https://school.programmers.co.kr/learn/courses/30/lessons/1844)
