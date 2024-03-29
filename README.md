@@ -21,6 +21,7 @@
 - [정수 제곱근 판별](https://school.programmers.co.kr/learn/courses/30/lessons/12934)
 - [직사각형 별찍기](https://school.programmers.co.kr/learn/courses/30/lessons/12969?language=python3)
 - [핸드폰 번호 가리기](https://school.programmers.co.kr/learn/courses/30/lessons/12948)
+- [부족한 금액 계산하기](https://school.programmers.co.kr/learn/courses/30/lessons/82612)
 ### 미들러
 - [멀리 뛰기](https://school.programmers.co.kr/learn/courses/30/lessons/12914)
 - [바탕화면 정리](https://school.programmers.co.kr/learn/courses/30/lessons/161990)
