@@ -26,8 +26,9 @@
 ### 미들러
 - [멀리 뛰기](https://school.programmers.co.kr/learn/courses/30/lessons/12914)
 - [바탕화면 정리](https://school.programmers.co.kr/learn/courses/30/lessons/161990)
-- [마법의 엘리베이터](https://school.programmers.co.kr/learn/courses/30/lessons/148653)
-
+- [숫자 문자열과 영단어](https://school.programmers.co.kr/learn/courses/30/lessons/81301)
+### 챌린저
+- [마법의 엘리베이터](https://school.programmers.co.kr/learn/courses/30/lessons/148653) 
 > dfs/bfs
 - Lv.2 [게임 맵 최단거리](https://school.programmers.co.kr/learn/courses/30/lessons/1844)
 - Lv.2 [타겟 넘버](https://school.programmers.co.kr/learn/courses/30/lessons/43165)
