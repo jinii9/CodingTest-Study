@@ -28,6 +28,7 @@
 - [멀리 뛰기](https://school.programmers.co.kr/learn/courses/30/lessons/12914)
 - [바탕화면 정리](https://school.programmers.co.kr/learn/courses/30/lessons/161990)
 - [숫자 문자열과 영단어](https://school.programmers.co.kr/learn/courses/30/lessons/81301)
+- [햄버거 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/133502)
 ### 챌린저
 - [마법의 엘리베이터](https://school.programmers.co.kr/learn/courses/30/lessons/148653) 
 > dfs/bfs
