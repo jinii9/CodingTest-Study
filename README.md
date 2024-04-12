@@ -24,18 +24,21 @@
 - [부족한 금액 계산하기](https://school.programmers.co.kr/learn/courses/30/lessons/82612)
 - [문자열을 정수로 바꾸기](https://school.programmers.co.kr/learn/courses/30/lessons/12925)
 - [수박수박수박수박수박수?](https://school.programmers.co.kr/learn/courses/30/lessons/12922)
+- [가운데 글자 가져오기](https://school.programmers.co.kr/learn/courses/30/lessons/12903)
 ### 미들러
 - [멀리 뛰기](https://school.programmers.co.kr/learn/courses/30/lessons/12914)
 - [바탕화면 정리](https://school.programmers.co.kr/learn/courses/30/lessons/161990)
 - [숫자 문자열과 영단어](https://school.programmers.co.kr/learn/courses/30/lessons/81301)
 - [햄버거 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/133502)
 - [두 개 뽑아서 더하기](https://school.programmers.co.kr/learn/courses/30/lessons/68644)
+- [기능개발](https://school.programmers.co.kr/learn/courses/30/lessons/42586)
 ### 챌린저
 - [마법의 엘리베이터](https://school.programmers.co.kr/learn/courses/30/lessons/148653) 
 > dfs/bfs
 - Lv.2 [게임 맵 최단거리](https://school.programmers.co.kr/learn/courses/30/lessons/1844)
 - Lv.2 [타겟 넘버](https://school.programmers.co.kr/learn/courses/30/lessons/43165)
-
+> 구현
+> [문자열 압축](https://school.programmers.co.kr/learn/courses/30/lessons/60057)
 ## 구름
 - [근묵자흑](https://yoloaeee.tistory.com/78)
 - [문제 선정하기](https://dduniverse.tistory.com/entry/%EA%B5%AC%EB%A6%84-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%A8%BC%EB%8D%B0%EC%9D%B4-%EC%B1%8C%EB%A6%B0%EC%A7%80-2%EC%A3%BC%EC%B0%A8-%EB%AC%B8%EC%A0%9C1-%ED%95%A9%EA%B2%A9%EC%9E%90-%EC%B0%BE%EA%B8%B0)
