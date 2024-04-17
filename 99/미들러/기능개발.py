@@ -49,3 +49,4 @@ def solution(progresses, speeds):
 
     return answer
 
+print(solution([93, 30, 70], [1, 30, 5]))
