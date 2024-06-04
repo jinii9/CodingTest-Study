@@ -13,7 +13,7 @@ def solution(tickets):
     # 각 리스트를 알파벳 순으로 정렬
     for key in graph:
         print(graph[key])
-        graph[key].sort(reverse=True)
+        graph[key].sort()
     print("graph", graph)
 
     route = []
@@ -28,8 +28,15 @@ def solution(tickets):
     dfs("ICN")
     return route[::-1]
 
+print(solution([["ICN", "SFO"], ["ICN", "ATL"], ["SFO", "ATL"], ["ATL", "ICN"], ["ATL","SFO"]]))
+# ["ICN", "ATL", "ICN", "SFO", "ATL", "SFO"]
+
 # while True:
 #     if airport not in graph:
 #         break
 #     if not graph[airport]:
 #         break
+
+######################################################
+# 알파벳 순서가 앞서는 경로 : a > b
+# pop 문법을 사용하므로 sort 시, reverse를 적용해야 한다.

@@ -26,7 +26,8 @@ def solution(tickets):
     dfs(tickets, "ICN", visited, answer)
     return answer
 
-print(solution([["ICN", "JFK"], ["HND", "IAD"], ["JFK", "HND"]]))
+# print(solution([["ICN", "JFK"], ["HND", "IAD"], ["JFK", "HND"]]))
+print(solution([["ICN", "A"], ["ICN", "B"], ["A", "C"], ["B", "A"], ["C", "B"], ["B", "C"]])) # 백트래킹 발생하는 예시
 
 
 # # 항상 "ICN" 공항에서 출발

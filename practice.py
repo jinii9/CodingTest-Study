@@ -1,33 +1,28 @@
-from collections import deque
+def solution(tickets):
+    answer = []
+    graph = {}
 
-# 미로탈출
-n, m = map(int, input().split())
-graph = []
-for i in range(n):
-    graph.append(list(map(int, input())))
+    # 딕셔너리
+    for a, b in tickets:
+        if a in graph:
+            graph[a].append(b)
+        else:
+            graph[a] = [b]
 
-dx = [-1, 1, 0, 0]
-dy = [0, 0, -1, 1]
+    # print(graph) # {'ICN': ['SFO', 'ATL'], 'SFO': ['ATL'], 'ATL': ['ICN', 'SFO']}
 
-def bfs(x, y):
-    queue = deque([(x, y)])
+    # 알파벳 큰 순으로 정렬
+    for i in graph:
+        graph[i].sort(reverse=True)
 
-    while queue:
-        x, y = queue.popleft()
-
-        for i in range(4):
-            nx = x + dx[i]
-            ny = y + dy[i]
-
-            if nx<0 or ny<0 or nx>=n or ny>=m:
-                continue
-            if graph[nx][ny] == 0:
-                continue
-            if graph[nx][ny] == 1:
-                graph[nx][ny] = graph[x][y] + 1
-                queue.append((nx, ny))
-
-    return graph[n-1][m-1]
+    # print(graph) # {'ICN': ['SFO', 'ATL'], 'SFO': ['ATL'], 'ATL': ['SFO', 'ICN']}
+    def dfs(start):
+        print(start)
 
 
-print(bfs(0, 0))
+    dfs("ICN")
+
+    return answer
+
+
+print(solution([["ICN", "JFK"], ["HND", "IAD"], ["JFK", "HND"]]))
