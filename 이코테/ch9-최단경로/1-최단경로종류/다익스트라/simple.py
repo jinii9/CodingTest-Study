@@ -49,6 +49,7 @@ def dijkstra(start):
     visited[start] = True
     for j in graph[start]:
         distance[j[0]] = j[1] ## j=(2,2) j[0]=2
+    ## distance : [1000000000, 0, 2, 5, 1, 1000000000, 1000000000]
 
     # 시작 노드를 제외한 전체 n - 1개의 노드에 대해 반복
     for i in range(n - 1):

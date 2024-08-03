@@ -1,28 +1,32 @@
-def solution(tickets):
-    answer = []
-    graph = {}
+import heapq
+import sys
+input = sys.stdin.readline
+INF = int(1e9)
 
-    # 딕셔너리
-    for a, b in tickets:
-        if a in graph:
-            graph[a].append(b)
-        else:
-            graph[a] = [b]
+n, m = map(int, input().split())
+start = int(input())
+graph = [[] for i in range(n + 1)]
+distance = [INF] * (n + 1)
 
-    # print(graph) # {'ICN': ['SFO', 'ATL'], 'SFO': ['ATL'], 'ATL': ['ICN', 'SFO']}
+for _ in range(m):
+    a, b, c = map(int ,input().split())
+    graph[a].append((b, c))
 
-    # 알파벳 큰 순으로 정렬
-    for i in graph:
-        graph[i].sort(reverse=True)
+def dijkstra(start):
+    distance[start] = 0
+    q = []
+    q.heappush(q, (0, start))
 
-    # print(graph) # {'ICN': ['SFO', 'ATL'], 'SFO': ['ATL'], 'ATL': ['SFO', 'ICN']}
-    def dfs(start):
-        print(start)
+    while q:
+        dist, now = heapq.heappop(q)
 
+        if distance[now] < dist:
+            continue
 
-    dfs("ICN")
+        for i in graph[now]:
+            cost = dist + graph[i[0]] 
+            if cost < distance[i[0]]:
+                distance[i[0]] = cost
+                heapq.heappush(q, (cost, i[0]))
 
-    return answer
-
-
-print(solution([["ICN", "JFK"], ["HND", "IAD"], ["JFK", "HND"]]))
+dijkstra(start)
