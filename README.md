@@ -28,12 +28,15 @@
 > dfs/bfs
 - Lv.2 [게임 맵 최단거리](https://school.programmers.co.kr/learn/courses/30/lessons/1844)
 - Lv.2 [타겟 넘버](https://school.programmers.co.kr/learn/courses/30/lessons/43165)
+- Lv.3 [단어 변환](https://school.programmers.co.kr/learn/courses/30/lessons/43163)
 > 구현
 - Lv.2 [문자열 압축](https://school.programmers.co.kr/learn/courses/30/lessons/60057)
 > 해시
 - Lv.2 [전화번호 목록](https://school.programmers.co.kr/learn/courses/30/lessons/42577)
 > 스택/큐
 - Lv.2 [올바른 괄호](https://school.programmers.co.kr/learn/courses/30/lessons/12909)
+> 완전탐색
+- Lv.2 [카펫](https://school.programmers.co.kr/learn/courses/30/lessons/42842)
 
 ## 구름
 - [근묵자흑](https://yoloaeee.tistory.com/78)
