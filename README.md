@@ -24,7 +24,7 @@
 - [최댓값과 최솟값](https://school.programmers.co.kr/learn/courses/30/lessons/12939)
 ### 챌린저
 - [마법의 엘리베이터](https://school.programmers.co.kr/learn/courses/30/lessons/148653) 
-
+-------
 > dfs/bfs
 - Lv.2 [게임 맵 최단거리](https://school.programmers.co.kr/learn/courses/30/lessons/1844)
 - Lv.2 [타겟 넘버](https://school.programmers.co.kr/learn/courses/30/lessons/43165)
@@ -37,6 +37,8 @@
 - Lv.2 [올바른 괄호](https://school.programmers.co.kr/learn/courses/30/lessons/12909)
 > 완전탐색
 - Lv.2 [카펫](https://school.programmers.co.kr/learn/courses/30/lessons/42842)
+-------
+> Lv.3 [주사위 고르기](https://school.programmers.co.kr/learn/courses/30/lessons/258709)
 
 ## 구름
 - [근묵자흑](https://yoloaeee.tistory.com/78)

@@ -46,3 +46,8 @@ def solution(begin, target, words):
                 # count = 0 # 여기서 또 초기화해줄 필요가 없다!
                
     return bfs(begin) # (후)return을 해준다.
+
+    # cog
+    # (O) dot -> dog
+    # (X) dot -> lot
+    # 
