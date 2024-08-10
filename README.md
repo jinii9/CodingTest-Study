@@ -40,6 +40,7 @@
 -------
 > Lv.3 [주사위 고르기](https://school.programmers.co.kr/learn/courses/30/lessons/258709)
 > Lv.3 [인사고과](https://school.programmers.co.kr/learn/courses/30/lessons/152995)
+> Lv.3 [카운트 다운](https://school.programmers.co.kr/learn/courses/30/lessons/131129)
 
 ## 구름
 - [근묵자흑](https://yoloaeee.tistory.com/78)
