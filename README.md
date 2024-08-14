@@ -64,3 +64,4 @@
 - 🥈3 [칸토어 집합](https://www.acmicpc.net/problem/4779)
 - 🥈2 [로또](https://www.acmicpc.net/problem/6603)
 - 🥇5 [암호 만들기](https://www.acmicpc.net/problem/1759)
+- 🥈3 [모든 순열](https://www.acmicpc.net/problem/10974)
