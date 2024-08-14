@@ -49,16 +49,17 @@
 
 ## 백준
 > dfs/bfs
-- 🥈Lv.1 [2178 미로 탐색](https://www.acmicpc.net/problem/2178)
-- 🥈Lv.1 [2667 단지번호붙이기](https://www.acmicpc.net/problem/2667)
+- 🥈1 [2178 미로 탐색](https://www.acmicpc.net/problem/2178)
+- 🥈1 [2667 단지번호붙이기](https://www.acmicpc.net/problem/2667)
 
 > 이진탐색
-- 🥈Lv.1 [2343 기타 레슨](https://www.acmicpc.net/problem/2343)
-- 🥈Lv.2 [2512 예산](https://www.acmicpc.net/problem/2512)
+- 🥈1 [2343 기타 레슨](https://www.acmicpc.net/problem/2343)
+- 🥈2 [2512 예산](https://www.acmicpc.net/problem/2512)
 
 > DP
-- 🥈Lv.3 [1463 1로 만들기](https://www.acmicpc.net/problem/2343)
+- 🥈3 [1463 1로 만들기](https://www.acmicpc.net/problem/2343)
 
 -------
-- 🥉Lv.2 [피보나치 수 5](https://www.acmicpc.net/problem/10870)
-- 🥈Lv.3 [칸토어 집합](https://www.acmicpc.net/problem/4779)
+- 🥉2 [피보나치 수 5](https://www.acmicpc.net/problem/10870)
+- 🥈3 [칸토어 집합](https://www.acmicpc.net/problem/4779)
+- 🥈2 [로또](https://www.acmicpc.net/problem/6603)
