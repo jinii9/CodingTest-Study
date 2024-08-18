@@ -67,3 +67,4 @@
 - 🥈3 [모든 순열](https://www.acmicpc.net/problem/10974)
 - 🥈5 [좌표 정렬하기](https://www.acmicpc.net/problem/11650)
 - 🥈5 [Sport Climbing Combined](https://www.acmicpc.net/problem/23246)
+- 🥈3 [숫자 야구](https://www.acmicpc.net/problem/2503)
