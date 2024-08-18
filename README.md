@@ -68,3 +68,4 @@
 - 🥈5 [좌표 정렬하기](https://www.acmicpc.net/problem/11650)
 - 🥈5 [Sport Climbing Combined](https://www.acmicpc.net/problem/23246)
 - 🥈3 [숫자 야구](https://www.acmicpc.net/problem/2503)
+- 🥈2 [부분수열의 합](https://www.acmicpc.net/problem/1182)

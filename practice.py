@@ -1,15 +1,26 @@
-from math import sqrt
+from itertools import permutations
 
-N = 120
-is_prime = [True] * (N + 1)  # 처음에는 모두 true로 초기화
-is_prime[1] = False  # 1은 소수가 아니므로
+N = int(input())
+arr = [list(input().split()) for _ in range(N)]
+answer = 0
 
-# 에라토스테네스의 체 알고리즘
-for i in range(2, int(sqrt(N)) + 1):
-    if not is_prime[i]: 
-    	continue
-    for j in range(2 * i, N + 1, i):
-        is_prime[j] = False
+for per in permutations(range(1, 10), 3):
+    ok = True
 
-for i in range(1, N + 1):
-    print(i, is_prime[i])
+    for num, st, bl in arr:
+        per_st = per_bl = 0
+
+        for i in range(3):
+            if str(per[i]) == num[i]:
+                per_st += 1
+            elif str(per[i]) in num:
+                per_bl += 1
+
+        if per_st != int(st) or per_bl != int(bl):
+            ok = False
+            break
+    
+    if ok:
+        answer += 1
+
+print(answer)
