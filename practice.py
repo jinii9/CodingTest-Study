@@ -1,26 +1,25 @@
-from itertools import permutations
+def search(lev):
+    global N, S, arr, cur_sum, ans
 
-N = int(input())
-arr = [list(input().split()) for _ in range(N)]
-answer = 0
-
-for per in permutations(range(1, 10), 3):
-    ok = True
-
-    for num, st, bl in arr:
-        per_st = per_bl = 0
-
-        for i in range(3):
-            if str(per[i]) == num[i]:
-                per_st += 1
-            elif str(per[i]) in num:
-                per_bl += 1
-
-        if per_st != int(st) or per_bl != int(bl):
-            ok = False
-            break
+    if lev == N:
+        if cur_sum == S:
+            ans += 1
+        return
     
-    if ok:
-        answer += 1
+    cur_sum += arr[lev]
+    search(lev + 1)
+    cur_sum -= arr[lev]
 
-print(answer)
+    search(lev + 1)
+    
+
+N, S = map(int, input().split())
+arr = list(map(int, input().split()))
+cur_sum = 0
+ans = 0
+
+search(0)
+if S == 0:
+    ans -= 1
+
+print(ans)
