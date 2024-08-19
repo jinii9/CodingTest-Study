@@ -71,3 +71,4 @@
 - 🥈2 [부분수열의 합](https://www.acmicpc.net/problem/1182)
 - 🥈1 [행운의 문자열](https://www.acmicpc.net/problem/1342)
 - 🥉2 [거스름돈](https://www.acmicpc.net/problem/5585)
+- 🥈4 [보물](https://www.acmicpc.net/problem/1026)
