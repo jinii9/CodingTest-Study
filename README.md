@@ -74,3 +74,4 @@
 - 🥈4 [보물](https://www.acmicpc.net/problem/1026)
 - 🥇4 [도서관](https://www.acmicpc.net/problem/1461)
 - 🥈2 [이동하기](https://www.acmicpc.net/problem/11048)
+- 🥈1 [RGB거리](https://www.acmicpc.net/problem/1149)
