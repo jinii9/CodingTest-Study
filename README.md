@@ -75,3 +75,4 @@
 - 🥇4 [도서관](https://www.acmicpc.net/problem/1461)
 - 🥈2 [이동하기](https://www.acmicpc.net/problem/11048)
 - 🥈1 [RGB거리](https://www.acmicpc.net/problem/1149)
+- 🥈2 [가장 긴 증가하는 부분 수열](https://www.acmicpc.net/problem/11053)
