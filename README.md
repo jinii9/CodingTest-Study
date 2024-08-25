@@ -78,3 +78,4 @@
 - 🥈2 [가장 긴 증가하는 부분 수열](https://www.acmicpc.net/problem/11053)
 - 🥇5 [LCS](https://www.acmicpc.net/problem/9251)
 - 🥇5 [평범한 배낭](https://www.acmicpc.net/problem/12865)
+- 🥈4 [체스판 다시 칠하기](https://www.acmicpc.net/problem/1018)
