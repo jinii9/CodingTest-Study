@@ -79,3 +79,4 @@
 - 🥇5 [LCS](https://www.acmicpc.net/problem/9251)
 - 🥇5 [평범한 배낭](https://www.acmicpc.net/problem/12865)
 - 🥈4 [체스판 다시 칠하기](https://www.acmicpc.net/problem/1018)
+- 🥈2 [사탕 게임](https://www.acmicpc.net/problem/3085)
