@@ -103,3 +103,4 @@
 - 🥈2 [사탕 게임](https://www.acmicpc.net/problem/3085)
 - 🥈2 [연속합](https://www.acmicpc.net/problem/1912)
 - 🥈3 [2xn 타일링](https://www.acmicpc.net/problem/11726)
+- 🥇4 [알파벳](https://www.acmicpc.net/problem/1987)
