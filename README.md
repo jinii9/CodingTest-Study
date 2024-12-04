@@ -107,3 +107,4 @@
 - 🥇4 [스도쿠](https://www.acmicpc.net/problem/2580)
 - 🥇4 [가장 긴 바이토닉 부분 수열](https://www.acmicpc.net/problem/11054)
 - 🥇3 [앱](https://www.acmicpc.net/problem/7579)
+- 🥈1 [회의실 배정](https://www.acmicpc.net/problem/1931)
