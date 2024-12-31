@@ -114,3 +114,4 @@
 - 🥈2 [나무 자르기] (https://www.acmicpc.net/problem/2805)
 - 🥇4 [공유기 설치](https://www.acmicpc.net/problem/2110)
 - 🥇4 [구간 나누기2](https://www.acmicpc.net/problem/13397)
+- 🥈4 [수들의 합2](https://www.acmicpc.net/problem/2003)
