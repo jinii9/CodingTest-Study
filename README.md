@@ -110,3 +110,4 @@
 - 🥈1 [회의실 배정](https://www.acmicpc.net/problem/1931)
 - 🥇5 [타일 채우기](https://www.acmicpc.net/problem/2133)
 - 🥈4 [수 찾기](https://www.acmicpc.net/problem/1920)
+- 🥇4 [공유기 설치](https://www.acmicpc.net/problem/2110)
