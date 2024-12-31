@@ -110,4 +110,6 @@
 - 🥈1 [회의실 배정](https://www.acmicpc.net/problem/1931)
 - 🥇5 [타일 채우기](https://www.acmicpc.net/problem/2133)
 - 🥈4 [수 찾기](https://www.acmicpc.net/problem/1920)
+- 🥇5 [개똥벌레] (https://www.acmicpc.net/problem/3020)
+- 🥈2 [나무 자르기] (https://www.acmicpc.net/problem/2805)
 - 🥇4 [공유기 설치](https://www.acmicpc.net/problem/2110)
