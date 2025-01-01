@@ -1,46 +1,60 @@
-# 57~
+# 회문: 앞뒤방향으로 볼때 같은 순서
+# 유사회문: 한문자 삭제하여 회문 만들 수 있다.
+# 회문 0, 유사회문 1, 일반문자열 판단 2
 
-# 길이 N 수열
-# 연속된 수들의 부분합 >= S 중에서 가장 짧은 길이 구하기
-
+# solve
 # 브루트포스
-# 부분 -> 시작점, 끝점 고르기
-# N * NC2 = 100000000 = 1억
-# 이분탐색 or 투포인터
+# T30 * 100,000*100,000
+# 이진탐색 or 투포인터
 
-# 이분탐색(파라매트릭)
-# 기준 - S 이상 되는 것 : FFFTT..
-# left, right 고르면서 S 이상이 되는 것만 pick하기
-# right 고를 때 이분탐색 : 가장 오른쪽 F 구하고, +1
+# 투포인터
+# left, right 양 사이드에서 시작
+# 
+# 7, 7//2= 3 
+# 6, 6//2= 3 
+import sys
+sys.setrecursionlimit(10**6)  # 재귀 깊이 제한 늘리기
 
-def parametric_search(left):
-    global N, S, psum
+def recursion(value, left, right, count):
+	global T
+	# base
+	if count > 1:
+		return 2
+	# if left == right and count==1:
+	# 	return 1
+	if left >= right:
+		# return 0
+		return count
+	
+	# recursive
+	if value[left] == value[right]:
+		return recursion(value, left+1, right-1, count)
 
-    # cur = -1
-    cur = left - 1
-    step = N
+	else:
+		# 1. right를 옮겨보기
+		skip_right = recursion(value, left, right-1, count+1)
+		# count -=1 # 백트래킹
+		if skip_right == 1:
+			return 1
+		# 2. left를 옮겨보기
+		# recursion(value, left+1, right, count+1)
+		# count-=1
+		skip_left = recursion(value, left+1, right, count+1)
+		if skip_left == 1:
+			return 1
+		return 2
+	
+	# return 2
 
-    while step!=0:
-        while (cur + step <= N) and (psum[cur + step] - psum[left - 1] < S): # 연속된 수들의 부분합이 S보다 작을 때(이때 누적합이 필요한 것이다)
-            cur += step
-        step //= 2
-    
-    return (cur + 1) # 첫 True 값
 
 
-N, S = map(int, input().split())
-arr = [0] + list(map(int, input().split()))
+T = int(input()) # 문자열 개수
+arr = [input() for _ in range(T)]
 
-# 누적합
-psum = [0] * (N + 1)
-for i in range(1, N+1):
-	psum[i] = psum[i-1] + arr[i]
-
-answer = int(1e6)
-for left in range(1, N+1):
-    right = parametric_search(left)
-
-    if right <= N: # 합 S가 없을 경우 가드
-      answer = min(answer, right - left + 1)
-
-print(answer if answer != int(1e6) else 0)
+for value in arr:
+	left = 0
+	right = len(value)-1
+	# for left in range(T):
+	print(recursion(value, left, right, 0))
+		
+		
