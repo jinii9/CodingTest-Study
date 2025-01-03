@@ -118,3 +118,4 @@
 - 🥇4 [부분합](https://www.acmicpc.net/problem/1806)
 - 🥇5 [회문](https://www.acmicpc.net/problem/17609)
 - 🥈3 [바이러스](https://www.acmicpc.net/problem/2606)
+- 🥈2 [DFS와 BFS](https://www.acmicpc.net/problem/1260)
